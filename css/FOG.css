@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Noto+Serif+JP|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat:600');
+
+.location {
+	font-family: Archivo Black;
+	color: white;
+	cursor: auto;
+	position: absolute;
+    top: 2vw;
+  	-ms-transform: translate(-50%, -15%);
+  	background-color: transparent;
+	border: none;
+	padding: 1.5vw 2.1vw;
+	text-align: left;
+	font-size: 2.5vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.location:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+.location:hover .num {
+	color: black;
+	text-decoration: none;
+}
+
+.location .num {
+	color: white;
+	font-size: 25px;
+}
+
+#sum {
+	left: 9vw;
+}
+#r {
+	left: 20vw;
+} 
+#c {
+	left: 37.5vw;
+}
+#h {
+	left: 58.5vw;
+}
+#i {
+	left: 73.5vw;
+}
+
+.headerF {
+	background-color: #1a1a1a;
+	opacity: 0.5;
+	background-size: cover;
+	align-self: center;
+	position: absolute;
+	width: 100vw;
+	height: 10.5vw;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.mainImg {/*
+	filter: blur(1px);
+	-webkit-filter: blur(1px);*/
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	position: absolute;
+	/*top: 15.5vw;*/
+	right: 0;
+	left: 0;
+}
+
+.title {
+	color: black;
+	font-family: Montserrat;
+	background-color: transparent;
+	font-size: 2vw;
+	top: 15vw;
+	left: 31vw;
+	position: absolute;
+}
+.body0 {
+	color: white;
+	opacity: 0.3;
+	font-family: Montserrat;
+	width: 19vw;
+	font-size: 1vw;
+	top: 25vw;
+	left: 12vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.body0 .des {
+	color: white;
+	opacity: 0.2;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 5vw;
+	left:10vw;
+	transition: 0.2;
+}
+.body0:hover {
+	color: white;
+	background-color: black;
+	opacity: 1;
+	padding: 1.5vw;
+}
+
+.body1 {
+	color: white;
+	opacity: 0.3;
+	font-family: Montserrat;
+	width: 25vw;
+	font-size: 1vw;
+	top: 35vw;
+	left: 56vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.body1 .fog {
+	color: white;
+	opacity: 0.2;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 2.5vw;
+	left: 7vw;
+	transition: 0.2;
+}
+.body1:hover {
+	color: white;
+	background-color: black;
+	opacity: 1;
+	padding: 1.5vw;
+}
+

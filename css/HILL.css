@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Noto+Serif+JP|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat:600');
+
+html {
+	background-color: #f2784b;
+}
+
+.location {
+	font-family: Archivo Black;
+	color: white;
+	cursor: auto;
+	position: absolute;
+    top: 2vw;
+  	-ms-transform: translate(-50%, -15%);
+  	background-color: transparent;
+	border: none;
+	padding: 1.5vw 2.1vw;
+	text-align: left;
+	font-size: 2.5vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.location:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+.location:hover .num {
+	color: black;
+	text-decoration: none;
+}
+
+.location .num {
+	color: white;
+	font-size: 25px;
+}
+
+#sum {
+	left: 9vw;
+}
+#r {
+	left: 20vw;
+} 
+#c {
+	left: 37.5vw;
+}
+#h {
+	left: 58.5vw;
+}
+#i {
+	left: 73.5vw;
+}
+
+.header {
+	background-color: #1a1a1a;
+	opacity: 0.2;
+	background-size: cover;
+	align-self: center;
+	position: absolute;
+	width: 100vw;
+	height: 10.5vw;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.img1 {
+/*	filter: blur(2px);
+	-webkit-filter: blur(2px);*/
+	width: 60vw;
+	position: absolute;
+	left: 36vw;
+	top: 15vw;
+}
+.img2 {
+/*	filter: blur(2px);
+	-webkit-filter: blur(2px);*/
+	width: 30vw;
+	position: absolute;
+	left: 10vw;
+	top: 64vw;
+}
+.img3 {
+	width: 45vw;
+	position: absolute;
+	left: 42vw;
+	top: 64vw;
+}
+
+.first {
+	color: white;
+	opacity: 0.5;
+	font-family: Montserrat;
+	width: 19vw;
+	font-size: 1vw;
+	top: 19vw;
+	left: 11vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.first .one {
+	color: white;
+	opacity: 0.4;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: -1.5vw;
+	left: -5vw;
+	transition: 0.2;
+}
+.first:hover {
+	color: white;
+	background-color: black;
+	opacity: 1.5;
+	padding: 1.5vw;
+}
+
+.body2 {
+	color: white;
+	opacity: 0.5;
+	font-family: Montserrat;
+	width: 19vw;
+	font-size: 1vw;
+	top: 37vw;
+	left: 4.5vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.body2 .des {
+	color: white;
+	opacity: 0.6;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 0vw;
+	left:5vw;
+	transition: 0.2;
+}
+.body2:hover {
+	color: white;
+	background-color: black;
+	opacity: 1;
+	padding: 1.5vw;
+}
+
+.body3 {
+	color: white;
+	opacity: 0.5;
+	font-family: Montserrat;
+	width: 25vw;
+	font-size: 1vw;
+	top: 89vw;
+	left: 11.5vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.body3 .fog {
+	color: white;
+	opacity: 0.2;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 4vw;
+	left: -6vw;
+	transition: 0.2;
+}
+.body3:hover {
+	color: white;
+	background-color: black;
+	opacity: 1;
+	padding: 1.5vw;
+}

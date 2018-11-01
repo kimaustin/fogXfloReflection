@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Noto+Serif+JP|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat:600');
+
+html {
+	background-color: #336e7b;
+}
+
+.location {
+	font-family: Archivo Black;
+	color: white;
+	cursor: auto;
+	position: absolute;
+    top: 2vw;
+  	-ms-transform: translate(-50%, -15%);
+  	background-color: transparent;
+	border: none;
+	padding: 1.5vw 2.1vw;
+	text-align: left;
+	font-size: 2.5vw;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.location:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+.location:hover .num {
+	color: black;
+	text-decoration: none;
+}
+
+.location .num {
+	color: white;
+	font-size: 25px;
+}
+
+#sum {
+	left: 9vw;
+}
+#r {
+	left: 20vw;
+} 
+#c {
+	left: 37.5vw;
+}
+#h {
+	left: 58.5vw;
+}
+#i {
+	left: 73.5vw;
+}
+
+.header {
+	background-color: #1a1a1a;
+	opacity: 0.2;
+	background-size: cover;
+	align-self: center;
+	position: absolute;
+	width: 100vw;
+	height: 10.5vw;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.img1 {
+/*	filter: blur(2px);
+	-webkit-filter: blur(2px);*/
+	width: 35vw;
+	position: absolute;
+	left: 40vw;
+	top: 15vw;
+}
+.img2 {
+/*	filter: blur(2px);
+	-webkit-filter: blur(2px);*/
+	width: 30vw;
+	position: absolute;
+	right: 9vw;
+	top: 45vw;
+}
+.img3 {
+	width: 45vw;
+	position: absolute;
+	left: 10vw;
+	top: 48vw;
+}
+
+.look {
+	color: white;
+	opacity: 0.3;
+	font-family: Montserrat;
+	width: 19vw;
+	font-size: 1vw;
+	top: 19vw;
+	left: 11vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.look .one {
+	color: white;
+	opacity: 0.1;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 2vw;
+	left: 7vw;
+	transition: 0.2;
+}
+.look:hover {
+	color: white;
+	background-color: black;
+	opacity: 1.5;
+	padding: 1.5vw;
+}
+.admir {
+	color: white;
+	opacity: 0.3;
+	font-family: Montserrat;
+	width: 25vw;
+	font-size: 1vw;
+	top: 71vw;
+	left: 66vw;
+	position: absolute;
+	transition: 0.3s;
+	padding: 2vw;
+}
+.admir .fog1 {
+	color: white;
+	opacity: 0.3;
+	font-family: montserrat;
+	font-size: 18vw;
+	position: absolute;
+	top: 3vw;
+	left: -5vw;
+	transition: 0.2;
+}
+.admir:hover {
+	color: white;
+	background-color: black;
+	opacity: 1.5;
+	padding: 1.5vw;
+}
+
+.mainImg {/*
+	filter: blur(1px);
+	-webkit-filter: blur(1px);*/
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	position: absolute;
+	/*top: 15.5vw;*/
+	right: 0;
+	left: 0;
+}
